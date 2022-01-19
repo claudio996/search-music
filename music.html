@@ -1,0 +1,35 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search-music</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Search-Music</h1>
+    <div class="container">
+        <form id="song-search">
+            <input type="text" name="artist" placeholder="name of interprete " required>
+            <br><br>
+            <input type="text" name="song" placeholder="name of sound" required>
+            <br><br>
+            <input type="submit">
+            <br>
+
+        </form>
+    </div>
+    <img class="loader" src="../assets/circles.svg" alt="Cargando..">
+    <aside class="error"></aside>
+    <main>
+        <article class="artist">
+        </article>
+        <article class="song">
+        </article>
+    </main>
+</body>
+<script src="js/main.js"></script>
+
+</html>
